@@ -20,7 +20,7 @@ Note: requires `docker login`
 (Runs the application in the isolation of the container [no external access to the local filesystem])
 
 `$ docker run -it --rm -v $(pwd):/home/root --name nnn macabees/nnn`
-(Note: this command grants access to the current directory on your local filesystem to the 'mc' application running in the container)
+(Note: this command grants access to the current directory on your local filesystem to the 'nnn' application running in the container)
 
 ## Help
 `$ docker run -it --rm macabees/nnn --help`
